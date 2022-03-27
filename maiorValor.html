@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Calculadora</title>
+    <link rel="stylesheet" href="maiorValor.css" type="text/css"> 
+</head>
+<body>
+    <div class="bubble-1"></div>
+    <div class="bubble-2"></div>
+    <div class="bubble-3"></div>
+
+
+    <div class="content">
+        <span>Digite dois valores!</span>
+        <input type="number" class="first-value" placeholder="Digite um número"><br>
+        <input type="number" class="second-value" placeholder="Digite um número">
+
+        <div class="buttons-div">
+            <button onclick="sum()">+</button>
+            <button onclick="subtraction()">-</button>
+            <button onclick="multiplication()">*</button>
+            <button onclick="division()">/</button>
+            <button onclick="potentiation()">**</button>
+            <button onclick="highestValue()" id="highest-value">Maior Valor</button>
+        </div>
+
+        <span class="result-text">Resultado: <span class="result"></span> </span>
+
+    </div>
+
+    <script src="maiorValor.js"></script>
+</body>
+</html>
